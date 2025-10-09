@@ -1,0 +1,14 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Poslog'
+theme = "terminal"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.90.0"
+
+[params]
+  themeColor = "green"
+  centerTheme = true
+  showMenu = true
