@@ -1,0 +1,33 @@
+baseURL = "http://localhost:1313/"
+languageCode = "pl"
+title = "poslog"
+theme = "terminal"
+
+[params]
+  themeColor = "green"
+  showMenu = true
+  centerTheme = true
+  fullWidthTheme = false
+  showLastUpdated = true
+  readingTime = true
+  contentType = "posts"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[menu]
+  [[menu.main]]
+    name = "O mnie"
+    url = "/about"
+    weight = 1
+
+  [[menu.main]]
+    name = "Logi"
+    url = "/posts"
+    weight = 2
+
+  [[menu.main]]
+    name = "Kontakt"
+    url = "/contact"
+    weight = 3
+
