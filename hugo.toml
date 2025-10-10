@@ -11,6 +11,8 @@ theme = "terminal"
   showLastUpdated = true
   readingTime = true
   contentType = "posts"
+  subtitle = "Minimalistyczny log o biznesie, technologiach i myśleniu"
+
 
 [outputs]
   home = ["HTML", "RSS"]
