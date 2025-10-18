@@ -1,0 +1,9 @@
+[build]
+  publish = "public"
+  command = "hugo"
+
+[build.environment]
+  HUGO_VERSION = "0.115.4"  # <- lub inna wersja, której używasz lokalnie
+  HUGO_ENABLEGITINFO = "true"
+  HUGO_ENV = "production"
+
