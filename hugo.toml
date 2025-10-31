@@ -1,8 +1,12 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://poslog.pl/"
 languageCode = "pl"
-title = "poslog"
+title = "poslog v2"
 theme = "terminal"
 
+[module]
+  [[module.imports]]
+    path = "github.com/panr/hugo-theme-terminal"
+    
 [params]
   themeColor = "yellow"
   showMenu = true
@@ -12,7 +16,6 @@ theme = "terminal"
   readingTime = true
   contentType = "posts"
   subtitle = "Minimalistyczny log o biznesie, technologiach i myśleniu"
-
 
 [outputs]
   home = ["HTML", "RSS"]

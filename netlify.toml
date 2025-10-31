@@ -1,9 +1,8 @@
 [build]
   publish = "public"
-  command = "hugo"
+  command = "hugo --gc --minify --cleanDestinationDir"
 
-[build.environment]
-  HUGO_VERSION = "0.115.4"  # <- lub inna wersja, której używasz lokalnie
+[context.production.environment]
+  HUGO_VERSION = "0.121.1"
   HUGO_ENABLEGITINFO = "true"
-  HUGO_ENV = "production"
-
+  GIT_SUBMODULE_STRATEGY = "recursive"
